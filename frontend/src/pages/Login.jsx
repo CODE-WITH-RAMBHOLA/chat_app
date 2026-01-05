@@ -49,6 +49,7 @@ const Login = () => {
         <div className=' w-full  max-w-[500px] h-[600px] bg-white rounded-lg shadow-gray-400 shadow-lg flex flex-col gap-[30px]'>
             <div className='w-full h-[200px] bg-[#20c7ff] rounded-b-[30%]  shadow-gray-400 shadow-lg flex items-center justify-center'>
                 <h1 className='text-gray-600 font-bold text-[30px] '>Log in <span className='text-white'>ChatSphere</span></h1>
+                    <p className='mx-8 mt-2'><span className='text-red-500 font-bold'>Note:</span> This application is hosted on Render (free tier). Initial load may take up to 15 seconds due to server cold start.</p>
 
             </div>
             <form className='w-full flex flex-col gap-[20px] items-center' onSubmit={handleLogin}>
